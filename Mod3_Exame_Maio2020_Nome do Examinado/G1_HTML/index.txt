@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
 	<head>
-		<title>Exame TIC</title>
+		<link rel="shortout icon" type="image/png" href="imagens/icon.png">
+
+		<title>AKP home</title>
 		<meta charset="utf-8">
 		<style>
 			body{
@@ -14,6 +16,17 @@
 				background-color:black;
 				list-style:none;
 				border-radius: 6px;
+			}
+			.pagina li{
+				display: inlsine-block;
+				background-color: #8A0808;
+				padding: 10px;
+				margin: 2px;
+				border-radius: 5px;
+				transition: background-color 0.4s;
+			}
+			.pagina li:hover{
+				background-color: #81BEF7;
 			}
 			.pagina ul li{
 				display: inline;
@@ -35,13 +48,11 @@
 				width: 1500px;
 				height: 500px;
 			}
-			.titulo{
-				width: 100%;
-				float: top;
-			}
-			.imagem{
-				width: 35%;
+			figure.imagem{
+				width: 26.7%;
 				float: left;
+				border:6px solid #81BEF7;	
+				box-shadow: 1px 1px 4px red;
 			}
 			.apresentacao{
 				width: 80%;
@@ -56,7 +67,7 @@
 				border-radius: 6px;
 				font-size: 13px;
 				padding-top: 100px;
-				color: White;
+				color: red;
 				background-color:black;
 			}
 		
@@ -78,16 +89,18 @@
 
 	<body>
 		<div class="index">
-			<div class="titulo">
-				<h1>AKP (Associação de Karaté Portuguesa)</h1>
+
+			<figure class="imagem">
+				<img src="imagens/apresentacao.jpg" width="400">
+			</figure>
+			
+			<div align="center" class="apresentacao">
+
+			<div align="center" class="titulo">
+				<h1><p><B><font color="red">A</font>ssociação de <font color="red">K</font>araté <font color="red">P</font>ortuguesa</B></p></h1>
 			</div>
 
-			<div class="imagem">
-				<img src="imagens/apresentacao.jpg" width="400">
-			</div>
-			
-			<div class="apresentacao">
-				<p>A AKP é uma Associação Portuguesa de Karaté que surgiu em 21 de Dezembro de 1870 que tem 
+				<p>A <font color="red">AKP </font>é uma Associação Portuguesa de Karaté que surgiu em 21 de Dezembro de 1870 que tem 
 				como função apresentar de uma forma tranquila e profissional a forma de qualquer ser humano
 				 de defender pessoalmente, a associação conta com mais de 200 mil karatecas inscritos de diferentes
 				 cores de cinturão, cinturão este que determina o nível de um determinado aluno começando pela cor 
@@ -103,12 +116,15 @@
 				 a si e a sua família, melhorando também assim a sua aptidão física e a sua saúde, venha explore o 
 				nosso site que estamos consigo.</p>
 				<br>
-				<p>O que é Karaté?</p> 
+				<p align="center"><font color="red"><B>O que é Karaté?</B></font></p> 
 				<br>
-				<audio controls>
-  					<source src="audio/audiokarate.mp3" type="audio/mpeg">		
-				</audio>
+				<div align="center"class="audio">
+					<audio controls>
+  						<source src="audio/audiokarate.mp3" type="audio/mpeg">		
+					</audio>
+				</div>
 			</div>
+
 		</div>
 
 	</body>
@@ -116,7 +132,7 @@
 	
 	<footer class="footer">
 
-		<p class="direitos">© Copyright since 2020, all rights reserved </p>
+		© Copyright since 2020, all rights reserved
 
 	</footer>
 </html>

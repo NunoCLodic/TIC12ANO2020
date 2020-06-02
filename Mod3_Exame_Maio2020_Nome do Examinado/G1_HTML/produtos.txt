@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
 	<head>
-		<title>Exame TIC</title>
+		<link rel="shortout icon" type="image/png" href="imagens/icon.png">
+
+		<title>AKP produtos</title>
 		<meta charset="utf-8">
 		<style>
 			body{
 				margin: 0;
 				background-color:#CEF6CE;
+			}
+			img {
+ 				 display: block;
+ 				 margin-left: auto;
+				 margin-right: auto;
+				 border:3px solid #CEF6CE;	
+				 box-shadow: 1px 1px 4px black;
+			}
+			p{
+
+			}
+
+			h1{
+				color: red;
+				text-align: center
+			}
+			h2{
+
+				color: blue;
+			}
+			h3{
+				color: red;
 			}
 
 			.pagina ul{
@@ -14,6 +38,17 @@
 				background-color:black;
 				list-style:none;
 				border-radius: 6px;
+			}
+			.pagina li{
+				display: inlsine-block;
+				background-color: #8A0808;
+				padding: 10px;
+				margin: 2px;
+				border-radius: 5px;
+				transition: background-color 0.4s;
+			}
+			.pagina li:hover{
+				background-color: #CEF6CE;
 			}
 			.pagina ul li{
 				display: inline;
@@ -30,19 +65,10 @@
 				color: red;
 			}
 
-			table, th, td {
- 			 	border: 1px solid black;
- 			 	border-collapse: collapse;
-			}
 
 			th, td {
-			   	padding: 80px;
+			   	padding: 1px;
  			 	text-align: center;
-			}
-
-			h1{
-				color: blue;
-				text-align: center
 			}
 
 			.footer{
@@ -53,7 +79,7 @@
 				border-radius: 6px;
 				font-size: 13px;
 				padding-top: 100px;
-				color: White;
+				color: red;
 				background-color:black;
 			}
 		
@@ -77,52 +103,70 @@
 	<body>
 
 		<table style="width:100%">
- 		 	<h1>Nossos Produtos</h1>
+ 		 	<h1>Produtos</h1>
   			<tr>
    		 		<th>
-					<p>A Almofada de chute, serve para treinar os pontapés de forma a não se magoar</p>
-					<img src="imagens/almofada.jpg" width="200" height="200">
-					<p>ALMOFADA DE CHUTE</p>
-					<p>30€</p>
-					<p>Comprar</p>
+					<img src="imagens/almofada.jpg" width="170" height="150">
+
+					<h2>ALMOFADA DE CHUTE</h2>
+
+					<p>(A Almofada de chute, serve para treinar os pontapés de forma a não se magoar)</p>
+
+					<h2>30€</h2>
+					<h3>Comprar</h3>
+				</th>
+   		 		<th>	
+					<img src="imagens/caneleira.png" width="170" height="150">
+
+					<h2>CANELEIRA</h2>
+
+					<p>(A Caneleira serva para se proteger da canela durante o treino ou competicão)</p>
+
+					<h2>20€</h2>
+					<h3>Comprar</h3>
 				</th>
    		 		<th>
-					<p>A Caneleira serva para se proteger da canela durante o treino ou competicao</p>
-					<img src="imagens/caneleira.png" width="200" height="200">
-					<p>CANELEIRA</p>
-					<p>20€</p>
-					<p>Comprar</p>
-				</th>
-   		 		<th>
-					<p>O Cinto serve para identificar qual é o Nível de um Karateca</p>
-					<img src="imagens/cinto.jpg" width="200" height="200">
-					<p>CINTO</p>
-					<p>10€</p>
-					<p>Comprar</p>
+					<img src="imagens/cinto.jpg" width="170" height="150">
+
+					<h2>CINTO</h2>
+
+					<p>(O Cinto serve para identificar qual é o Nível de um Karateca)</p>
+
+					<h2>10€</h2>
+					<h3>Comprar</h3>
 				</th>
   			</tr>
 
   			<tr>
    		 		<th>
-					<p>O Fato de treino é para identificar o tipo de Arte Marcial se trata</p>
-					<img src="imagens/fato.jpg" width="200" height="200">
-					<p>FATO TREINO</p>
-					<p>50€</p>
-					<p>Comprar</p>
+					<img src="imagens/fato.jpg" width="170" height="150">
+
+					<h2>FATO TREINO</h2>
+
+					<p>(O Fato de treino é para identificar o tipo de Arte Marcial se trata)</p>
+
+					<h2>50€</h2>
+					<h3>Comprar</h3>
 				</th>
    		 		<th>
-					<p>A Luva de box proteje-o do pulso quando for treinar com alguem</p>
-					<img src="imagens/luvabox.jpg" width="200" height="200">
-					<p>LUVA DE BOX</p>
-					<p>25€</p>
-					<p>Comprar</p>
+					<img src="imagens/luvabox.jpg" width="170" height="150">
+
+					<h2>LUVA DE BOX</h2>
+
+					<p>(A Luva de box proteje-o do pulso quando for treinar com alguém)</p>
+
+					<h2>25€</h2>
+					<h3>Comprar</h3>
 				</th>
    		 		<th>
-					<p>O Tatami protege todo seu corpo quando for ao chão</p>
-					<img src="imagens/tatami.png" width="200" height="200">
-					<p>TATAMI</p>
-					<p>35€</p>
-					<p>Comprar</p>
+					<img src="imagens/tatami.png" width="170" height="150">
+
+					<h2>TATAMI</h2>
+
+					<p>(O Tatami protege todo seu corpo quando for ao chão)</p>
+
+					<h2>35€</h2>
+					<h3>Comprar</h3>
 				</th>
  		 	</tr>
 		</table>
@@ -133,7 +177,7 @@
 	
 	<footer class="footer">
 
-		<p class="direitos">© Copyright since 2020, all rights reserved </p>
+		© Copyright since 2020, all rights reserved
 
 	</footer>
 </html>
